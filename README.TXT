@@ -1,0 +1,47 @@
+Ansible can connect to any system externally and can perform the task given by us ....
+Here we call the ansible modules, every module syntax we can check in the documentation
+Module name is mandatory, you can supply argiments to module .. they may be optional or mandatory
+
+ping module
+
+what is ansible playbook
+It is list of plays which contain modules that can do specific task.
+
+Inventory
+-----------------------
+1 or many
+
+inventory.ini --> a file contains a list of servres which ansible connecting to ..
+
+192.168.1.1
+
+
+variables
+datatypes
+conditions
+fuctions
+loops
+
+inheritance --> 
+
+vars_promt
+
+ansible inventory
+------------------------
+ungrouped
+grouped
+group of groups
+
+ansible -i inventory.ini ungrouped --list-hosts
+
+data types
+-----------------------
+string
+int, float, double, decimal, long, etc --> number
+boolean --> true/false
+list
+map
+
+ansible is developed using python language 
+
+hosts: web --> target group under web group
