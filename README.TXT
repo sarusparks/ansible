@@ -45,3 +45,28 @@ map
 ansible is developed using python language 
 
 hosts: web --> target group under web group
+
+{ --> map
+[ --> list
+
+
+conditions
+--------------------------
+write a playbook to check if number is less than 10 or not
+
+when 
+to decide whether the task/module is run or not
+
+create expense user
+-----------------
+check the expense user already exist or not
+if dont exist dont create ot not exist create It
+
+ansible dont have gurantee module exists for everything...
+we can use direct commands if module not exists
+
+ansible.builtin.command:
+
+error handling --> handle the errors
+
+if error comes --> ignore errors
