@@ -70,3 +70,51 @@ ansible.builtin.command:
 error handling --> handle the errors
 
 if error comes --> ignore errors
+
+facts == variables
+
+ansible, before connections to the servers/hosts it will collect entire information so that it 
+can take decisions based on that information.
+
+install nginx
+--------------------------
+ansible.builtin.dnf
+ansible.builtin.apt
+
+loops
+-----------------
+item --> reserved keyword
+
+fuctions/filters
+
+filter --> manipulation
+
+ansible.builtin.shell
+ansible.built.command
+
+command vs shell
+--------------------------------
+interview question
+
+command --> simple command......... it will not get the shell environtment
+shell --> complex pipes, redirections etc... it get the shell environtment
+
+command is secure than shell
+
+expense project
+------------------
+3 servers, 3records
+mysql.daws81.online --> private ip
+backend.daws81.online --> private ip
+frontend.daws81.online --> private ip
+daws81.online --> public ip
+
+ansible is not only configuration management tool , it can also connect to any system if the module is existed
+
+
+ansible --> aws
+
+
+
+
+
